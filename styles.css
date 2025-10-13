@@ -60,12 +60,25 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px
+    gap: 5px;
 }
 .navigation a {
     color: black;
     text-decoration: none;
     padding: 10px;
+}
+.nav-button {
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border: solid;
+    border-color: var(--alabaster);
+    border-radius: 5px;
+    display: none;
+}
+
+.nav-button img {
+    width: 40px;
 }
 .account_navigation {
 
@@ -78,3 +91,4 @@ img {
 }
 #search_button {
 }
+
