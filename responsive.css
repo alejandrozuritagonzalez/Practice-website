@@ -8,4 +8,20 @@
     .nav-button {
         display: block;
     }
+    #search button {
+        display: none;
+    }
+    #search input {
+        padding: 10px;
+        border: solid 1px;
+        border-radius: 5px;
+        flex: 1;
+    }
+    #main {
+        order: 3;
+        flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+    }
+
 }

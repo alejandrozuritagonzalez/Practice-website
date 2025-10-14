@@ -80,15 +80,23 @@ img {
 .nav-button img {
     width: 40px;
 }
-.account_navigation {
 
-}
 #search {
-
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
 }
-#keywords {
 
+#search input {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px 0px 0px 5px;
+    flex: 1;
 }
-#search_button {
+
+#search button {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 0px 5px 5px 0px;
 }
 
