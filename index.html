@@ -5,6 +5,7 @@
         <link rel="icon" href="images/TipToe_Soles_Logo_colour.png">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
@@ -12,7 +13,7 @@
             <button class="nav-button" id="menu-button">
                 <image src="images/burger.svg">
             </button>   
-            <a href="index.html">
+            <a href="index.html" class="logo-link">
                 <img class="logo-image" src= "images/TipToe_Soles_Logo_colour.png" alt="Logo"></a>
             <!-- category menu -->
             <nav class="navigation" id="main">     
@@ -28,15 +29,18 @@
                     <img class="search-image" src="images/search.svg">
                 </button>
             </form>
-            <nav class="account_navigation">     
+            <nav class="account_navigation" id="user-nav">     
                 <a href="account.html">
-                    <img src="images/account.svg" alt="account">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="sr-only">Account</span>
                 </a>
                 <a href="whishlist.html">
-                    <img src="images/wishlist.svg" alt="wishlist">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="sr-only">Whislist</span>
                 </a>
                 <a href="cart.html">
-                    <img src="images/shopping-cart.svg" alt="shopping cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="sr-only">Shopping Cart</span>
                 </a>
             </nav>
 
