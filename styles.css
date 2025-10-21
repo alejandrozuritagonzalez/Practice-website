@@ -61,9 +61,8 @@ img {
 }
 
 .logo-image {
-
     max-width: 100px;
-    min-width: 60px;
+    min-width: 30px;
     padding: 10px;
 }
 
