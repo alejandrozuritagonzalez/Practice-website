@@ -9,6 +9,7 @@
         justify-content: flex-start;
         padding-left: 5px;
         padding-right: 5px;
+        position: relative;
     }
     .navigation {
         margin-top: 8px;
@@ -38,6 +39,11 @@
         width: 100%;
         transition: max-height 1s;
         flex-wrap: nowrap;
+        position: absolute;
+        top: 89%;
+        left: 0px;
+        background-color: var(--cadet-gray);
+        z-index: 999;
     }
     #main.open {
         max-height: 50vh;
