@@ -189,3 +189,35 @@ nav a {
     flex-direction: row;
     gap: 1.5em;
 }
+/*-----------container styling------------*/
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.card img {
+    max-width: 100%;
+    
+}
+.card-content {
+    padding: 15px;
+}
+.card {
+    flex: 1;
+    background-color: whitesmoke;
+    border: 2px solid var(--cadet-gray);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card button {
+    min-width: 100%;
+    padding: 8px;
+    border: 2px solid var(--cadet-gray);
+    border-radius: 5px;
+}
+.main-content {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
