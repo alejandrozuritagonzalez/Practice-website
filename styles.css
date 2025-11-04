@@ -221,3 +221,12 @@ nav a {
     margin-right: auto;
     max-width: 85%;
 }
+.banner2 {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 45deg, red, yellow, red);
+    margin-top: 1em;
+}
