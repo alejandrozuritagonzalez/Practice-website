@@ -5,6 +5,7 @@
     --ash-gray: #b8bdb5ff;
     --cadet-gray: #889696ff;
     --hookers-green: #5f7470ff;
+    color-scheme: light dark;
 }
 
 body {
@@ -30,7 +31,7 @@ a:visited {
 }
 
 a:hover {
-    color: #521d49
+    color: #646464
 }
 
 a:active {
@@ -229,4 +230,25 @@ nav a {
     align-items: center;
     background: linear-gradient( 45deg, red, yellow, red);
     margin-top: 1em;
+}
+
+/*----------------- form style --------------------*/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 0.5em;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.contact-form button {
+    min-width: auto;
+}
+.contact-details a {
+    color: var(--hookers-green);
+    font-size: medium;
 }
