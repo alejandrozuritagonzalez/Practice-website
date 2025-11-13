@@ -78,4 +78,7 @@
     .scrollbox {
         overflow-x: scroll;
     }
+    .contact_us {
+        font-size: 85%;
+    }
 }

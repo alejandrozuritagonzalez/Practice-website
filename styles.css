@@ -252,3 +252,20 @@ nav a {
     color: var(--hookers-green);
     font-size: medium;
 }
+.banner_contact {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 45deg, var(--hookers-green), var(--alabaster), var(--hookers-green));
+    margin-top: 1em;
+    font-size: 5em;
+}
+.contact_us {
+    color: rgb(32, 32, 32);
+}
+.about-us-info {
+    text-align: center;
+    color: rgb(32, 32, 32);
+}

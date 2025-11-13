@@ -2,20 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
-    <link rel="icon" href="icon.png">
+    <title>Contact Tiptoe Soles</title>
+    <link rel="icon" href="images/TipToe_Soles_Logo_colour.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-    </nav>
-    <h1>About page</h1>
-    <img class="about-image" src="heatran.png" alt="heatran">
+    <header class="page_header">
+        <button class="nav-button" id="menu-button">
+            <image src="images/burger.svg">
+        </button>
+        <a href="index.html" class="logo-link">
+            <img class="logo-image" src="images/TipToe_Soles_Logo_colour.png" alt="Logo"></a>
+        <!-- category menu -->
+        <nav class="navigation" id="main">
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="services.html">Services</a>
+        </nav>
+        <!-- search form -->
+        <form id="search" method="get" action="">
+            <input id="keywords" type="search" name="keywords" placeholder="Search for a product">
+            <button id="search_button" type="submit">
+                <img class="search-image" src="images/search.svg">
+            </button>
+        </form>
+        <nav class="account_navigation" id="user-nav">
+            <a href="account.html">
+                <i class="fa-solid fa-user"></i>
+                <span class="sr-only">Account</span>
+            </a>
+            <a href="whishlist.html">
+                <i class="fa-solid fa-heart"></i>
+                <span class="sr-only">Whislist</span>
+            </a>
+            <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="sr-only">Shopping Cart</span>
+            </a>
+        </nav>
+
+
+    </header>
+    <div class="banner_contact">
+        <h2 class="contact_us">About Us</h2>
+    </div>
+    <p class="about-us-info">
+        TipToe Soles is an Australian owned and operated company dedicated to bringing comfort, style, and quality
+        together in every step you take. Our mission is to provide footwear that not only feels good but also looks
+        great all at prices that remain accessible to everyone. With a strong focus on craftsmanship, durability, and
+        design, we carefully select materials and styles that cater to a wide range of lifestyles and preferences.
+
+        We take pride in offering our customers an easy and enjoyable shopping experience, whether they visit us online
+        or in-store. From casual wear to elegant designs, every pair of TipToe Soles is made with attention to detail
+        and a commitment to excellence. Based in Australia, we are proud to serve customers both locally and across the
+        globe, delivering footwear that helps you walk confidently and comfortably wherever life takes you.
+    </p>
+    <main class="main-content">
+        <div class="card-container contact">
+            <div class="card">
+                <!--facebook-->
+                <img src="images/social-media/facebook.png" alt="facebook">
+                <div class="card-content">
+                    <h3>Our Facebook</h3>
+                    <button type="button">Go to Facebook</button>
+                </div>
+            </div>
+            <div class="card">
+                <!--instagram-->
+                <img src="images/social-media/instagram.png" alt="instagram">
+                <div class="card-content">
+                    <h3>Our Instagram</h3>
+                    <button type="button">Go to Instagram</button>
+                </div>
+            </div>
+            <div class="card">
+                <!--TikTok-->
+                <img src="images/social-media/tiktok.png" alt="TikTok">
+                <div class="card-content">
+                    <h3>Our TikTok</h3>
+                    <button type="button">Go to TikTok</button>
+                </div>
+            </div>
+            <div class="card">
+                <!--TikTok-->
+                <img src="images/social-media/linkedin.png" alt="LinkedIn">
+                <div class="card-content">
+                    <h3>Our LinkedIn</h3>
+                    <button type="button">Go to LinkedIn</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <nav class="footer-nav">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="#">Policies</a>
+        </nav>
+        <nav class="social-nav">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://tiktok.com">
+                <i class="fa-brands fa-tiktok"></i>
+                <span class="sr-only">Tiktok</span>
+            </a>
+            <a href="https://linkedin.com">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="sr-only">Linkedin</span>
+            </a>
+        </nav>
+        <nav class="legal-nav">
+            <a href="#">Copyright</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy</a>
+        </nav>
+    </footer>
 </body>
 
 </html>
